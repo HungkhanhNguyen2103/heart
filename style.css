@@ -6,9 +6,10 @@
 
 section{
     display: flex;
+    min-width: 345px;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 695px;
     background-color: #042104;
     animation: animateBgColor 10s linear infinite;
 }
