@@ -3,7 +3,7 @@ let messages = ['Cảm ơn tình yêu của bé dành cho anh','Anh ước mình
 function getMessage(){
     for(let i = 0; i < messages.length; i++){
         setTimeout(() =>
-            show(messages[3])
+            show(messages[i])
         , i * 5000); 
     }
 }
